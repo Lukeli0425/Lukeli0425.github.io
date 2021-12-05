@@ -6,7 +6,7 @@ Phone: +86 13301296130
 
 Email: lta19@mails.tsinghua.edu.cn
 
-[CV]()|[GitHub](https://github.com/Lukeli0425/)
+[CV]() | [GitHub](https://github.com/Lukeli0425/)
 
 ## About
 
