@@ -1,12 +1,10 @@
-##  
-
 ## TIANAO LI 李天骜
 
 Phone: +86 13301296130
 
 Email: lta19@mails.tsinghua.edu.cn
 
-[CV]() | [GitHub](https://github.com/Lukeli0425/)
+[CV]() | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/)
 
 ## About
 
