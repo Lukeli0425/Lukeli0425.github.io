@@ -1,5 +1,3 @@
-## Welcome to TIANAO LI's Homepage
-
 ## TIANAO LI 李天骜
 
 Phone: +86 13301296130
