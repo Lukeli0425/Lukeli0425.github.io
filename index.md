@@ -14,7 +14,7 @@ Email: lta19@mails.tsinghua.edu.cn
 </div> -->
 
 <div class="container section-anchor" id="Bio">
-  <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <table style="border:0px;border-spacing:0px;"><tbody>
   <tr style="padding:0px">
   <td style="padding:0%;width:60%;vertical-align:left">
