@@ -1,6 +1,6 @@
 ## TIANAO LI 李天骜
 
-Phone: +86 13301296130
+<!-- Phone: +86 13301296130 -->
 
 Email: lta19@mails.tsinghua.edu.cn
 
