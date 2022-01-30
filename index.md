@@ -44,7 +44,7 @@ This project is realized in Python with the aid of [Face Recognition](https://gi
 
 ## [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
 
-This is my implemention of the course project for **_Stochastic Processes_**. I built an algorithm using Guassian Process Regression that preditcs the stock prices based on previous observations. The project is implemented with Python and Scikit Learn.
+This is my implemention of the course project for **_Stochastic Processes_**. I built an algorithm using Guassian Process Regression that preditcs the stock prices based on previous observations. The project is implemented with Python and [Scikit Learn](https://scikit-learn.org/stable/modules/classes.html?highlight=sklearn.gaussian_process#module-sklearn.gaussian_process).
 
 <div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div>
 
