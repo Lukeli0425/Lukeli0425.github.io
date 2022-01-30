@@ -34,7 +34,8 @@ This is the 2021 _Signals and Systems_ project for Tsinghua EE students.
 
 This is my implemention of the course project for _Introduction to Auditory-visual Information System_. 
 
-![vasp_demo](./images/vasp_demo.png)
+<!-- ![vasp_demo](./images/vasp_demo.png) -->
+<div align=center><img src="./images/vasp_demo.png" width=600><img/></div>
 
 ## Research Interests
 
