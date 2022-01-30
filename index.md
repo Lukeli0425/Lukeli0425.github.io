@@ -46,4 +46,4 @@ Computational Imaging
 
 ## Go Warriors!
 
-![](./images/warriors.png)
+![wariors](./images/warriors.png#pic_center)
