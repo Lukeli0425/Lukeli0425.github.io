@@ -8,7 +8,7 @@ layout: default
 
 <!-- Email: lta19@mails.tsinghua.edu.cn -->
 
-[Email](mailto:lta19@mails.tsinghua.edu.cn) | [CV](./Tianao_Li.pdf) | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/)
+[Email](mailto:lta19@mails.tsinghua.edu.cn) | [CV](./Tianao_Li.pdf) | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/) | [Bilibili](https://space.bilibili.com/94808364)
 
 # About
 
@@ -38,9 +38,9 @@ This is my implemention of the course project for **_Introduction to Auditory-vi
 2. Recongizes voices from audios.
 3. Given a video of three speakers speaking at the same time, separate the speeches from the three speakers.
 
-This project is realized in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain).
-
 <div align=center><img src="./images/vasp_demo.png" width=600><img/></div>
+
+This project is realized in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain).
 
 ## [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
 
