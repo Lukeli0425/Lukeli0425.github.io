@@ -2,7 +2,7 @@
 
 <!-- Email: lta19@mails.tsinghua.edu.cn -->
 
-[Email](mailto:lta19@mails.tsinghua.edu.cn) | [CV](./Tianao_Li.pdf) | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/) | [Bilibili](https://space.bilibili.com/94808364)
+[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
 # About
 
