@@ -24,7 +24,7 @@ This is my implemention of 2021 **_Signals and Systems_** project. The main task
 
 ![ss_cover](./images/ss_cover.png)
 
-<div align=center><img src="./images/2_1_3%20figure1.jpg" width=420 align=left><img src="./images/2_1_3%20figure2.jpg" width=420 align=right><img/></div>
+<div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div>
 
 <!-- ![ss_1](./images/2_1_3%20figure1.jpg)
 
