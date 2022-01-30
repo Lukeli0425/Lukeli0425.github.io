@@ -22,13 +22,14 @@ Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories
 
 This is my 2021 _Signals and Systems_ project. The main task is to build an algorithm that outputs an video from a given set of video clips and the  
 
-<!-- ![ss_cover](./images/ss_cover.png) -->
+![ss_cover](./images/ss_cover.png)
 
-<div align=center><img src="./images/ss_cover.png" width=700><img/></div>
+<div align=center><img src="./images/2_1_3%20figure1.jpg" width=450><img/>
+<img src="./images/2_1_3%20figure2.jpg" width=450><img/></div>
 
-![ss_1](./images/2_1_3%20figure1.jpg)
+<!-- ![ss_1](./images/2_1_3%20figure1.jpg)
 
-![ss_2](./images/2_1_3%20figure2.jpg)
+![ss_2](./images/2_1_3%20figure2.jpg) -->
 
 ## [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
