@@ -4,7 +4,7 @@
 
 Email: lta19@mails.tsinghua.edu.cn
 
-[CV]() | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/)
+[Email](lta19@mails.tsinghua.edu.cn) | [CV]() | [GitHub](https://github.com/Lukeli0425/) | [LinkedIn](https://www.linkedin.com/in/tianao-li-596997227/)
 
 ## About
 
