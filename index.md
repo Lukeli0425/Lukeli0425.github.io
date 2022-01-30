@@ -37,11 +37,14 @@ This is my implemention of the course project for _Introduction to Auditory-visu
 
 # Research Interests
 
-Optics
+**Optics**
 
-Computer Vision
+**Computer Vision***
 
-Computational Imaging
+**Computational Imaging**
+
+
+
 
 
 # Go Warriors!
