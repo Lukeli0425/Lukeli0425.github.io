@@ -46,3 +46,6 @@ Computer Vision
 Computational Imaging
 
 
+## Go Warriors!
+
+![](./images/warriors.png)
