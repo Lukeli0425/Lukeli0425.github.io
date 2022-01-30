@@ -16,10 +16,11 @@ Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories
 
 ### [Automatic Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
-This is the 2021 Signals and Systems project for Tsinghua EE students.
+This is the 2021 _Signals and Systems_ project for Tsinghua EE students.
 
-### [Video Audio Separartion](https://github.com/Lukeli0425/VASP)
+### [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
+This is my implemention of the course project for _Introduction to Auditory-visual Information System_. 
 
 ## Research Interests
 
