@@ -20,9 +20,11 @@ Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories
 
 ## [Automatic Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
-This is the 2021 _Signals and Systems_ project for Tsinghua EE students.
+This is my 2021 _Signals and Systems_ project. The main task is to build an algorithm that outputs an video from a given set of video clips and the  
 
-![ss_cover](./images/ss_cover.png)
+<!-- ![ss_cover](./images/ss_cover.png) -->
+
+<div align=center><img src="./images/ss_cover.png" width=700><img/></div>
 
 ![ss_1](./images/2_1_3%20figure1.jpg)
 
@@ -35,13 +37,19 @@ This is my implemention of the course project for _Introduction to Auditory-visu
 <!-- ![vasp_demo](./images/vasp_demo.png) -->
 <div align=center><img src="./images/vasp_demo.png" width=600><img/></div>
 
+## [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
+
+This is my implemention of the course project for _Stochastic Processes_.
+
+
+
 # Research Interests
 
 **Optics**
 
-**Computer Vision**
-
 **Computational Imaging**
+
+**Computer Vision**
 
 &emsp;
 
