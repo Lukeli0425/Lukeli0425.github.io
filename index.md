@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## TIANAO LI 李天骜
 
 <!-- Phone: +86 13301296130 -->
