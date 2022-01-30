@@ -1,10 +1,4 @@
-<!-- ---
-layout: default
---- -->
-
 # TIANAO LI 李天骜
-
-<!-- Phone: +86 13301296130 -->
 
 <!-- Email: lta19@mails.tsinghua.edu.cn -->
 
@@ -26,10 +20,6 @@ This is my implemention of 2021 **_Signals and Systems_** project. The main task
 
 <div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div>
 
-<!-- ![ss_1](./images/2_1_3%20figure1.jpg)
-
-![ss_2](./images/2_1_3%20figure2.jpg) -->
-
 ## [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
 This is my implemention of the course project for **_Introduction to Auditory-visual Information System_**. I built three algorithms that solves the the following problems respectively:
@@ -50,7 +40,7 @@ This is my implemention of the course project for **_Stochastic Processes_**. I 
 
 &emsp;
 
-[**View More**](https://github.com/Lukeli0425?tab=repositories)
+[**View More on Github**](https://github.com/Lukeli0425?tab=repositories)
 
 # Research Interests
 
