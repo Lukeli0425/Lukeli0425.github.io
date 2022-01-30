@@ -1,7 +1,7 @@
-<!-- ---
+---
 layout: default
 ---
- -->
+
 # TIANAO LI 李天骜
 
 <!-- Phone: +86 13301296130 -->
@@ -24,9 +24,17 @@ Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories
 
 This is the 2021 _Signals and Systems_ project for Tsinghua EE students.
 
+![ss_cover](./images/ss_cover.png)
+
+![ss_1](./images/2_1_3%20figure1.jpg)
+
+![ss_2](./images/2_1_3%20figure2.jpg)
+
 ### [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
 This is my implemention of the course project for _Introduction to Auditory-visual Information System_. 
+
+![vasp_demo](./images/vasp_demo.png)
 
 ## Research Interests
 
