@@ -14,8 +14,9 @@ I'm an undergraduate student at Department of Electronic Engineering, Tsinghua U
 
 Check out my projects on Github!
 
-[Video Audio Separartion](https://github.com/Lukeli0425/VASP)
+### [Video Audio Separartion](https://github.com/Lukeli0425/VASP)
 
+### [Automatic Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
 ## Research Interests
 
