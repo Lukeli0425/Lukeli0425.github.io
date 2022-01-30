@@ -12,7 +12,7 @@ I'm an undergraduate student at [Department of Electronic Engineering, Tsinghua 
 
 Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories)!
 
-## [Automatic Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
+## [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
 This is my implemention of 2021 **_Signals and Systems_** project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
 
