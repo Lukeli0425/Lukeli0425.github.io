@@ -48,6 +48,10 @@ This is my implemention of the course project for **_Stochastic Processes_**. I 
 
 <div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div>
 
+&emsp;
+
+[**View More**](https://github.com/Lukeli0425?tab=repositories)
+
 # Research Interests
 
 **Optics**
