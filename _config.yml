@@ -4,3 +4,6 @@ plugins:
 show_downloads: true
 title: "TIANO LI's Homepage"
 description: "Hi there! Welcome to TIANAO LI’s Homepage！"
+
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
