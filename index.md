@@ -4,7 +4,7 @@ layout: default
 
 # **TIANAO LI 李天骜**
 
-<img src="./images/luke_profile.jpg" width=250 align=right><img/>
+<img src="./images/luke_profile.jpg" width=350 align=right><img/>
 
 # About
 
