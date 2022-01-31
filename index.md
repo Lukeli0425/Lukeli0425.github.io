@@ -6,7 +6,7 @@ layout: default
 
 # About
 
-<img src="./images/luke_profile.jpg" width=250 align=right><img/>
+<img src="./images/luke_profile.jpg" width=270 align=right><img/>
 
 I'm an undergraduate student at [Department of Electronic Engineering, Tsinghua University](https://www.ee.tsinghua.edu.cn/en/). I'm currently working as an intern at Tsinghua Visual Intelligence and Computational Imaging Lab [(Luvision)](http://www.luvision.net) under the directions of Prof. [Lu Fang](http://www.luvision.net/show-684.html). I received a high school diploma at [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
 
