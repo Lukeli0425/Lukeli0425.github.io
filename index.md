@@ -4,7 +4,9 @@ layout: default
 
 # TIANAO LI 李天骜
 
-<center>[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)</center>
+<div align=center><img src="./images/luke_profile.jpg" width=410 ><img/></div>
+
+[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
 # About
 
