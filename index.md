@@ -48,11 +48,13 @@ This is my implemention of the course project for **_Stochastic Processes_**. I 
 
 # Research Interests
 
-**Optics**
-
 **Computational Imaging**
 
-**Computer Vision**
+**Optical Computing**
+
+Optics
+
+Computer Vision
 
 &emsp;
 
