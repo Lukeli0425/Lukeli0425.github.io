@@ -10,7 +10,7 @@ layout: default
 
 I'm a third-year undergraduate student majoring in [Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), interested in **computational imaging**. I'm currently working as an intern at the [Tsinghua Visual Intelligence and Computational Imaging Lab](http://www.luvision.net). I graduated from [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
 
-**I'm looking for a research intern in summer 2022.**
+**_I'm looking for a research intern in summer 2022._**
 
 [**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
