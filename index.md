@@ -14,6 +14,11 @@ I'm a third-year undergraduate student majoring in [Electronic Engineering](http
 
 [**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
+
+# Research Interests
+
+**Computational Imaging,Computer Vision,Optical Computing,Observational Astronomy**
+
 # Projects
 
 <!-- Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories)! -->
@@ -47,16 +52,6 @@ This is my course project of **_Stochastic Processes_**. I built an algorithm us
 &emsp;
 
 [_View More on Github_](https://github.com/Lukeli0425?tab=repositories)
-
-# Research Interests
-
-**Computational Imaging**
-
-Observational Astronomy
-
-Optical Computing
-
-Computer Vision
 
 &emsp;
 
