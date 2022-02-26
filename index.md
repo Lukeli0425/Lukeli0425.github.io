@@ -17,7 +17,7 @@ I'm a third-year undergraduate student majoring in [Electronic Engineering](http
 
 # Research Interests
 
-**Computational Imaging,Computer Vision,Optical Computing,Observational Astronomy**
+**Computational Imaging**, Computer Vision, Optical Computing, Observational Astronomy
 
 # Projects
 
