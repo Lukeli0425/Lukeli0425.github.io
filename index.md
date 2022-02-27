@@ -12,7 +12,7 @@ I'm a third-year undergraduate student majoring in [Electronic Engineering](http
 
 **_I'm looking for a research intern in summer 2022._**
 
-[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
+[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li-Tsinghua.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
 
 # Research Interests
