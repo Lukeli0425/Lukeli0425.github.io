@@ -60,3 +60,6 @@ This is my course project of **_Stochastic Processes_**. I built an algorithm us
 # Go Warriors!
 
 ![wariors](./images/warriors.png#pic_center)
+
+
+last update: 4-2-2022
