@@ -23,14 +23,6 @@ I'm a junior undergraduate student majoring in [Electronic Engineering](https://
 
 <!-- Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories)! -->
 
-## [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
-
-This is my 2021 **_Signals and Systems_** course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
-
-![ss_cover](./images/ss_cover.png)
-
-<div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div>
-
 ## [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
 This is my course project of **_Introduction to Auditory-visual Information System_**. I built three algorithms that solves the the following problems respectively:
@@ -43,11 +35,22 @@ This is my course project of **_Introduction to Auditory-visual Information Syst
 
 This project is implemented in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain).
 
+
 ## [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
 
 This is my course project of **_Stochastic Processes_**. I built an algorithm using Guassian Process Regression that preditcs the stock prices based on previous observations. This project is implemented with Python and [Scikit Learn](https://scikit-learn.org/stable/modules/classes.html?highlight=sklearn.gaussian_process#module-sklearn.gaussian_process).
 
 <div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div>
+
+
+## [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
+
+This is my 2021 **_Signals and Systems_** course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
+
+![ss_cover](./images/ss_cover.png)
+
+<div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div>
+
 
 &emsp;
 
