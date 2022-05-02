@@ -8,7 +8,7 @@ layout: default
 
 <img src="./images/luke_profile.jpg" width=270 align=right><img/>
 
-I'm a junior undergraduate student majoring in [Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), interested in **computational imaging** and **computer vision**. I'm currently working with Prof. [Emma Alexander]() from [Northwestern University](). I was an intern at the [Tsinghua Visual Intelligence and Computational Imaging Lab](http://www.luvision.net). I graduated from [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
+I'm a junior undergraduate student majoring in [Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), interested in **computational imaging** and **computer vision**. I'm currently working with Prof. [Emma Alexander](https://www.alexander.vision) from [Northwestern University](https://www.northwestern.edu). I was an intern at the [Tsinghua Visual Intelligence and Computational Imaging Lab](http://www.luvision.net). I graduated from [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
 
 
 
