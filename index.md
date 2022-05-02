@@ -8,11 +8,11 @@ layout: default
 
 <img src="./images/luke_profile.jpg" width=270 align=right><img/>
 
-I'm a third-year undergraduate student majoring in [Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), interested in **computational imaging**. I'm currently working as an intern at the [Tsinghua Visual Intelligence and Computational Imaging Lab](http://www.luvision.net). I graduated from [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
+I'm a junior undergraduate student majoring in [Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), interested in **computational imaging** and **computer vision**. I'm currently working with Prof. [Emma Alexander]() from [Northwestern University](). I was an intern at the [Tsinghua Visual Intelligence and Computational Imaging Lab](http://www.luvision.net). I graduated from [Beijing No.4 High School](http://bhsf.lezhiyun.com/cms/) in 2019.
 
-**_I'm looking for a research internship this summer._**
 
-[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
+
+[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li-CV.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
 
 
 # Research Interests
@@ -62,4 +62,4 @@ This is my course project of **_Stochastic Processes_**. I built an algorithm us
 ![wariors](./images/warriors.png#pic_center)
 
 
-last update: 4-21-2022
+last update: 5-1-2022
