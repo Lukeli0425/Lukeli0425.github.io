@@ -39,7 +39,7 @@ This project is implemented in Python with the aid of [Face Recognition](https:/
 
 This repo contains my code and data for astronomical image reduction. The images were taken at Huairou, Beijing by a 25cm telescope of [DoA](http://astro.tsinghua.edu.cn). Targets includes M13, M51 , which are to be supplemented.
 
-<div align=center><img src="./M13/M13.jpg" width=600><img/></div>
+<div align=center><img src="./images/M13.jpg" width=600><img/></div>
 
 
 ## [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
