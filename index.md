@@ -13,9 +13,9 @@ I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.
 </p>
 
 
-
-[**Email**](mailto:lta19@mails.tsinghua.edu.cn) | [**CV**](./Tianao_Li-CV.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
-
+<div align=center>
+<a href=mailto:lta19@mails.tsinghua.edu.cn>Email</a> | [**CV**](./Tianao_Li-CV.pdf) | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
+</div>
 
 # Research Interests
 
