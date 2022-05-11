@@ -7,24 +7,21 @@ layout: default
 ## **About**
 
 <div>
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-        <td style="padding:2.5%;width:60%;vertical-align:middle">
-            <!-- <p style="text-align:center">
-                TIANAO LI
-            </p> -->
-            <p>
-                I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en"><b>Electronic Engineering</b></a> at <a href="https://www.tsinghua.edu.cn/en/"><b>Tsinghua University</b></a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. 
-            </p>
-            <p>
-                I graduated from <a href="http://bhsf.lezhiyun.com/cms/"><b>Beijing No.4 High School</b></a> in 2019.
-            </p>
-        </td>
-        <td style="padding:2.5%;width:30%;max-width:30%">
-            <img src="./images/luke_profile.jpg" width=250 align=right><img/>
-        </td>
-    </tr>
-</tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+                <p>
+                    I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en"><b>Electronic Engineering</b></a> at <a href="https://www.tsinghua.edu.cn/en/"><b>Tsinghua University</b></a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. 
+                </p>
+                <p>
+                    I graduated from <a href="http://bhsf.lezhiyun.com/cms/"><b>Beijing No.4 High School</b></a> in 2019.
+                </p>
+            </td>
+            <td style="padding:2.5%;width:30%;max-width:30%">
+                <img src="./images/luke_profile.jpg" width=250 align=right><img/>
+            </td>
+        </tr>
+    </tbody></table>
 </div>
 
 ​<br>
@@ -41,7 +38,42 @@ Computational Imaging, Computer Vision
 
 <!-- Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories)! -->
 
-### [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:20px;width:35%;max-width:35%" align="center">
+            <img style="width:100%;max-width:100%" src="./images/vasp_demo.png" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+            <papertitle><b>Video-Audio Signal Processing</b></papertitle>
+            <br>
+            <a href="https://github.com/Lukeli0425/THUEE-SS-Project2021">[Code]</a>
+            <br>
+            <p>This is my course project of <b>Introduction to Auditory-visual Information System</b>. I built three algorithms that solves the the following problems respectively:<br>
+            1. Recognize faces from videos clips.<br>
+            2. Recongizes voices from audios.<br>
+            3. Given a video of three speakers speaking at the same time, separate the speeches from the three speakers.<br>
+            This project is implemented in Python with the aid of <a href="https://github.com/ageitgey/face_recognition">Face Recognition</a>, <a href="https://github.com/resemble-ai/Resemblyzer">Resemblyzer</a> and <a href="https://github.com/speechbrain/speechbrain">Speechbrain</a>.</p>
+        </td>
+    </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:20px;width:35%;max-width:35%" align="center">
+            <img style="width:100%;max-width:100%" src="./images/ss_cover.png" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+            <papertitle><b>Video Editing Based on Rhythm Matching</b></papertitle>
+            <br>
+            <a href="https://github.com/Lukeli0425/VASP">[Code]</a>
+            <a href="https://www.bilibili.com/video/BV1ML411W7Xk/">[Video]</a>
+            <br>
+            <p>This is my 2021 <b>Signals and Systems</b> course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.</p>
+        </td>
+    </tr>
+</tbody></table>
+
+<!-- ### [Video-Audio Signal Processing](https://github.com/Lukeli0425/VASP)
 
 This is my course project of **_Introduction to Auditory-visual Information System_**. I built three algorithms that solves the the following problems respectively:
 
@@ -51,7 +83,7 @@ This is my course project of **_Introduction to Auditory-visual Information Syst
 
 <div align=center><img src="./images/vasp_demo.png" width=600><img/></div>
 
-This project is implemented in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain).
+This project is implemented in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain). -->
 
 ### [Astro Image Processing](https://github.com/Lukeli0425/Astro-Image-Processing)
 
@@ -67,13 +99,13 @@ This is my course project of **_Stochastic Processes_**. I built an algorithm us
 <div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div>
 
 
-### [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
+<!-- ### [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
 This is my 2021 **_Signals and Systems_** course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
 
 ![ss_cover](./images/ss_cover.png)
 
-<div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div>
+<div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div> -->
 
 
 &emsp;
