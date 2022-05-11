@@ -37,10 +37,10 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:10px;width:30%;max-width:30%" align="center">
+        <td style="padding:14px;width:30%;max-width:30%" align="center">
             <img style="width:100%;max-width:100%" src="./images/vasp_demo.png" alt="dise">
         <!-- </td>
-        <td style="padding:10px;width:30%;max-width:30%" align="center"> -->
+        <td style="padding:14px;width:30%;max-width:30%" align="center"> -->
             <img style="width:100%;max-width:100%" src="./images/vasp_demo2.png" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -59,7 +59,7 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:10px;width:30%;max-width:30%" align="center">
+        <td style="padding:14px;width:30%;max-width:30%" align="center">
             <img style="width:100%;max-width:100%" src="./images/M13.jpg" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -74,7 +74,7 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:10px;width:30%;max-width:30%" align="center">
+        <td style="padding:14px;width:30%;max-width:30%" align="center">
             <img style="width:100%;max-width:100%" src="./images/ss_cover.png" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -90,7 +90,7 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:10px;width:30%;max-width:30%" align="center">
+        <td style="padding:14px;width:30%;max-width:30%" align="center">
             <img style="width:100%;max-width:100%" src="./images/SBUX_2021_prediction.png" alt="dise">
         </td>
         <td width="75%" valign="center">
