@@ -91,7 +91,7 @@ Computational Imaging, Computer Vision
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
         <td style="padding:10px;width:30%;max-width:30%" align="center">
-            <img style="width:100%;max-width:100%" src="./images/M13.jpg" alt="dise">
+            <img style="width:100%;max-width:100%" src="./images/SBUX_2021_prediction.png" alt="dise">
         </td>
         <td width="75%" valign="center">
             <papertitle><b>Stock Forecast with GPR</b></papertitle>
@@ -122,11 +122,11 @@ This repo contains my code and data for astronomical image reduction. The images
 <div align=center><img src="./images/M13.jpg" width=600><img/></div> -->
 
 
-### [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
+<!-- ### [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
 
 This is my course project of **_Stochastic Processes_**. I built an algorithm using Guassian Process Regression that preditcs the stock prices based on previous observations. This project is implemented with Python and [Scikit Learn](https://scikit-learn.org/stable/modules/classes.html?highlight=sklearn.gaussian_process#module-sklearn.gaussian_process).
 
-<div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div>
+<div align=center><img src="./images/SBUX_2021_prediction.png" width=800><img/></div> -->
 
 
 <!-- ### [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
@@ -136,7 +136,6 @@ This is my 2021 **_Signals and Systems_** course project. The main task is to bu
 ![ss_cover](./images/ss_cover.png)
 
 <div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div> -->
-
 
 
 [_View More on Github_](https://github.com/Lukeli0425?tab=repositories)
