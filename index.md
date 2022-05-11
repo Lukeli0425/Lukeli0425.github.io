@@ -14,7 +14,7 @@ layout: default
                 TIANAO LI
             </p> -->
             <p>
-                I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en">Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. 
+                I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en"><b>Electronic Engineering</b></a> at <a href="https://www.tsinghua.edu.cn/en/"><b>Tsinghua University</b></a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. 
             </p>
             <p>
                 I graduated from <a href="http://bhsf.lezhiyun.com/cms/"><b>Beijing No.4 High School</b></a> in 2019.
