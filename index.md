@@ -137,12 +137,11 @@ This is my 2021 **_Signals and Systems_** course project. The main task is to bu
 
 <div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div> -->
 
+<p>
+<a href="https://github.com/Lukeli0425?tab=repositories">View More on Github<a>
+</p>
 
-[_View More on Github_](https://github.com/Lukeli0425?tab=repositories)
-
-&emsp;
-
-&emsp;
+<br>
 
 ## **Go Warriors!**
 
