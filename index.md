@@ -21,7 +21,7 @@ layout: default
             </p>
         </td>
         <td style="padding:2.5%;width:30%;max-width:30%">
-            <img src="./images/luke_profile.jpg" width=200 align=right><img/>
+            <img src="./images/luke_profile.jpg" width=220 align=right><img/>
         </td>
     </tr>
 </tbody></table>
