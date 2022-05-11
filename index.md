@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # **TIANAO LI 李天骜**
 
@@ -40,7 +37,7 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:20px;width:35%;max-width:35%" align="center">
+        <td style="padding:20px;width:32%;max-width:32%" align="center">
             <img style="width:100%;max-width:100%" src="./images/vasp_demo.png" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -59,7 +56,7 @@ Computational Imaging, Computer Vision
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
-        <td style="padding:20px;width:35%;max-width:35%" align="center">
+        <td style="padding:20px;width:32%;max-width:32%" align="center">
             <img style="width:100%;max-width:100%" src="./images/ss_cover.png" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -108,7 +105,6 @@ This is my 2021 **_Signals and Systems_** course project. The main task is to bu
 <div align=center><img src="./images/2_1_3%20figure1.jpg" width=410 ><img src="./images/2_1_3%20figure2.jpg" width=410 ><img/></div> -->
 
 
-&emsp;
 
 [_View More on Github_](https://github.com/Lukeli0425?tab=repositories)
 
