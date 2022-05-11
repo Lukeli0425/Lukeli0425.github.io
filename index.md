@@ -4,7 +4,7 @@ layout: default
 
 # **TIANAO LI 李天骜**
 
-## About
+## **About**
 
 <div>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -30,14 +30,14 @@ layout: default
 ​<br>
 
 <div align=center>
-<a href="mailto:lta19@mails.tsinghua.edu.cn"><b>Email</b></a> | <a href="./Tianao_Li-CV.pdf"><b>CV</b></a> | <a href="https://www.linkedin.com/in/tianao-li-596997227/"><b>LinkedIn</b></a> | <a href="https://github.com/Lukeli0425/"><b>GitHub</b></a> | <a href="https://twitter.com/LUKELI0425"><b>Twitter</b></a> | <a href="https://space.bilibili.com/94808364"><b>Bilibili</b></a>
+<a href="mailto:lta19@mails.tsinghua.edu.cn"><b>Email</b></a> / <a href="./Tianao_Li-CV.pdf"><b>CV</b></a> / <a href="https://www.linkedin.com/in/tianao-li-596997227/"><b>LinkedIn</b></a> / <a href="https://github.com/Lukeli0425/"><b>GitHub</b></a> / <a href="https://twitter.com/LUKELI0425"><b>Twitter</b></a> / <a href="https://space.bilibili.com/94808364"><b>Bilibili</b></a>
 </div>
 
-## Research Interests
+## **Research Interests**
 
-**Computational Imaging, Computer Vision**
+Computational Imaging, Computer Vision
 
-## Projects
+## **Projects**
 
 <!-- Check out my projects on [Github](https://github.com/Lukeli0425?tab=repositories)! -->
 
@@ -84,7 +84,7 @@ This is my 2021 **_Signals and Systems_** course project. The main task is to bu
 
 &emsp;
 
-## Go Warriors!
+## **ZZ**
 
 ![wariors](./images/warriors.png#pic_center)
 
