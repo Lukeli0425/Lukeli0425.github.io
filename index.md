@@ -8,13 +8,16 @@ layout: default
 
 <img src="./images/luke_profile.jpg" width=200 align=right><img/>
 
+<div align=left>
 <p>
 I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en">Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. I graduated from <a href="http://bhsf.lezhiyun.com/cms/">Beijing No.4 High School</a> in 2019.
 </p>
+</div>
 
 
 <div align=center>
-<a href=mailto:lta19@mails.tsinghua.edu.cn><b>Email</b></a> | <a href=./Tianao_Li-CV.pdf><b>CV</b></a> | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364)
+<a href=mailto:lta19@mails.tsinghua.edu.cn><b>Email</b></a> | <a href=./Tianao_Li-CV.pdf><b>CV</b></a> 
+<!-- | [**GitHub**](https://github.com/Lukeli0425/) | [**LinkedIn**](https://www.linkedin.com/in/tianao-li-596997227/) | [**Bilibili**](https://space.bilibili.com/94808364) -->
 </div>
 
 # Research Interests
