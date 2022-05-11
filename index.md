@@ -21,7 +21,7 @@ layout: default
             </p>
         </td>
         <td style="padding:2.5%;width:30%;max-width:30%">
-            <img src="./images/luke_profile.jpg" width=240 align=right><img/>
+            <img src="./images/luke_profile.jpg" width=250 align=right><img/>
         </td>
     </tr>
 </tbody></table>
@@ -84,7 +84,7 @@ This is my 2021 **_Signals and Systems_** course project. The main task is to bu
 
 &emsp;
 
-## **ZZ**
+## **Go Warriors!**
 
 ![wariors](./images/warriors.png#pic_center)
 
