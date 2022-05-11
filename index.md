@@ -83,7 +83,7 @@ Computational Imaging, Computer Vision
             <a href="https://github.com/Lukeli0425/VASP">[Code]</a>
             <a href="https://www.bilibili.com/video/BV1ML411W7Xk/">[Video]</a>
             <br>
-            <p>This is my 2021 <b>Signals and Systems</b> course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.</p>
+            <p>This is my 2021 <b>Signals and Systems</b> course project. The main task is to build an algorithm that creates an video from a given set of video clips and a background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.</p>
         </td>
     </tr>
 </tbody></table>
@@ -131,7 +131,7 @@ This is my course project of **_Stochastic Processes_**. I built an algorithm us
 
 <!-- ### [Video Editing Based on Rhythm Matching](https://github.com/Lukeli0425/THUEE-SS-Project2021)
 
-This is my 2021 **_Signals and Systems_** course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
+This is my 2021 **_Signals and Systems_** course project. The main task is to build an algorithm that creates an video from a given set of video clips and a background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.
 
 ![ss_cover](./images/ss_cover.png)
 
