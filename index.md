@@ -60,6 +60,21 @@ Computational Imaging, Computer Vision
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
         <td style="padding:10px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="./images/M13.jpg" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+            <papertitle><b>Astro Image Processing</b></papertitle>
+            <br>
+            <a href="https://github.com/Lukeli0425/Astro-Image-Processing">[Code & Data]</a>
+            <br>
+            <p>This repo contains my code and data for astronomical image reduction. The images were taken at Huairou, Beijing with a 25cm telescope of <a href="http://astro.tsinghua.edu.cn">DoA</a>. Targets includes M13, M51, M3, etc.</p>
+        </td>
+    </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:10px;width:30%;max-width:30%" align="center">
             <img style="width:100%;max-width:100%" src="./images/ss_cover.png" alt="dise">
         </td>
         <td width="75%" valign="center">
@@ -69,6 +84,21 @@ Computational Imaging, Computer Vision
             <a href="https://www.bilibili.com/video/BV1ML411W7Xk/">[Video]</a>
             <br>
             <p>This is my 2021 <b>Signals and Systems</b> course project. The main task is to build an algorithm that creates an video from a given set of video clips and an background music so that the video clips matches the background music in terms of audio rhythm as best as possible. This project is built with Matlab.</p>
+        </td>
+    </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:10px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="./images/M13.jpg" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+            <papertitle><b>Stock Forecast with GPR</b></papertitle>
+            <br>
+            <a href="https://github.com/Lukeli0425/Stock-Forecast-with-GPR">[Code]</a>
+            <br>
+            <p>This is my course project of <b>Stochastic Processes</b>. I built an algorithm using Guassian Process Regression that preditcs the stock prices based on previous observations. This project is implemented with Python and <a href="https://scikit-learn.org/stable/modules/classes.html?highlight=sklearn.gaussian_process#module-sklearn.gaussian_process">Scikit Learn<a>.</p>
         </td>
     </tr>
 </tbody></table>
@@ -85,11 +115,11 @@ This is my course project of **_Introduction to Auditory-visual Information Syst
 
 This project is implemented in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain). -->
 
-### [Astro Image Processing](https://github.com/Lukeli0425/Astro-Image-Processing)
+<!-- ### [Astro Image Processing](https://github.com/Lukeli0425/Astro-Image-Processing)
 
-This repo contains my code and data for astronomical image reduction. The images were taken at Huairou, Beijing with a 25cm telescope of [DoA](http://astro.tsinghua.edu.cn). Targets includes M13, M51, M3, etc, which are to be supplemented.
+This repo contains my code and data for astronomical image reduction. The images were taken at Huairou, Beijing with a 25cm telescope of [DoA](http://astro.tsinghua.edu.cn). Targets includes M13, M51, M3, etc.
 
-<div align=center><img src="./images/M13.jpg" width=600><img/></div>
+<div align=center><img src="./images/M13.jpg" width=600><img/></div> -->
 
 
 ### [Stock Forecast with GPR](https://github.com/Lukeli0425/Stock-Forecast-with-GPR)
