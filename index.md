@@ -1,22 +1,36 @@
-<!-- ---
+---
 layout: default
---- -->
+---
 
 # **TIANAO LI 李天骜**
 
 # About
 
-<img src="./images/luke_profile.jpg" width=200 align=right><img/>
 
-<div align=left>
-<p>
-I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en">Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. I graduated from <a href="http://bhsf.lezhiyun.com/cms/">Beijing No.4 High School</a> in 2019.
-</p>
+<div>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+        <td style="padding:2.5%;width:60%;vertical-align:middle">
+            <!-- <p style="text-align:center">
+                TIANAO LI
+            </p> -->
+            <p>
+                I'm a junior undergraduate student majoring in <a href="https://www.ee.tsinghua.edu.cn/en">Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, interested in <b>computational imaging</b> and <b>computer vision</b>. I'm currently working with Prof. <a href="https://www.alexander.vision">Emma Alexander</a> from <a href="https://www.northwestern.edu">Northwestern University</a>. I was an intern at the <a href="http://www.luvision.net">Tsinghua Visual Intelligence and Computational Imaging Lab</a>. 
+            </p>
+            <p>
+                I graduated from <a href="http://bhsf.lezhiyun.com/cms/"><b>Beijing No.4 High School</b></a> in 2019.
+            </p>
+        </td>
+        <td style="padding:2.5%;width:30%;max-width:30%">
+            <img src="./images/luke_profile.jpg" width=200 align=right><img/>
+        </td>
+    </tr>
+</tbody></table>
 </div>
 
 
 <div align=center>
-<a href="mailto:lta19@mails.tsinghua.edu.cn"><b>Email</b></a> | <a href="./Tianao_Li-CV.pdf"><b>CV</b></a> | <a href="https://github.com/Lukeli0425/"><b>GitHub</b></a> | <a href="https://www.linkedin.com/in/tianao-li-596997227/">LinkedIn</b></a> | <a href="https://space.bilibili.com/94808364"><b>Bilibili</b></a>
+<a href="mailto:lta19@mails.tsinghua.edu.cn"><b>Email</b></a> | <a href="./Tianao_Li-CV.pdf"><b>CV</b></a> | <a href="https://www.linkedin.com/in/tianao-li-596997227/"><b>LinkedIn</b></a> | <a href="https://github.com/Lukeli0425/"><b>GitHub</b></a> | <a href="https://twitter.com/LUKELI0425"><b>Twitter</b></a> | <a href="https://space.bilibili.com/94808364"><b>Bilibili</b></a>
 </div>
 
 # Research Interests
