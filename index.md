@@ -35,7 +35,7 @@ This is my course project of **_Introduction to Auditory-visual Information Syst
 
 This project is implemented in Python with the aid of [Face Recognition](https://github.com/ageitgey/face_recognition), [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) and [Speechbrain](https://github.com/speechbrain/speechbrain).
 
-## [Astro-Image-Processing](https://github.com/Lukeli0425/Astro-Image-Processing)
+## [Astro Image Processing](https://github.com/Lukeli0425/Astro-Image-Processing)
 
 This repo contains my code and data for astronomical image reduction. The images were taken at Huairou, Beijing by a 25cm telescope of [DoA](http://astro.tsinghua.edu.cn). Targets includes M13, M51 , which are to be supplemented.
 
