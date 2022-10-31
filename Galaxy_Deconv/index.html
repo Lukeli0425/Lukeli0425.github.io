@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>mip-NeRF 360</title>
+    <title>Galaxy-Deconv</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,9 +47,9 @@
     <div class="container" id="main">
         <div class="row">
             <h2 class="col-md-12 text-center">
-                <b>Mip-NeRF 360</b>: Unbounded <br> Anti-Aliased Neural Radiance Fields</br> 
+                Galaxy Image Deconvolution for Weak Gravitational Lensing <br> with Physics-informed Deep Learning </br> 
                 <small>
-								CVPR 2022 (Oral Presentation)
+								MNRAS 2022 (Under Review)
                 </small>
             </h2>
         </div>
@@ -57,18 +57,18 @@
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <li>
-                        <a href="https://jonbarron.info/">
-                          Jonathan T. Barron
+                        <a href="https://lukeli0425.github.io/">
+                          Tianao Li
                         </a>
-                        </br>Google
+                        </br>Tsinghua University
                     </li>
                     <li>
-                        <a href="http://bmild.github.io/">
-                            Ben Mildenhall
+                        <a href="https://www.alexander.vision/emma">
+                            Emma Alexander
                         </a>
-                        </br>Google
+                        </br>Northwestern University
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="https://scholar.harvard.edu/dorverbin/home">
                           Dor Verbin
                         </a>
@@ -85,7 +85,7 @@
                           Peter Hedman
                         </a>
                         </br>Google
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -95,25 +95,25 @@
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="https://arxiv.org/abs/2111.12077">
-                            <image src="img/360_paper_image.jpg" height="60px">
+                            <a href="">
+                            <image src="img/paper.jpg" height="60px">
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://youtu.be/zBSH-k9GbV4">
+                            <a href="">
                             <image src="img/youtube_icon.png" height="60px">
                                 <h4><strong>Video</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="http://storage.googleapis.com/gresearch/refraw360/360_v2.zip" target="popup" onclick="window.open('http://storage.googleapis.com/gresearch/refraw360/360_v2.zip','popup','width=600,height=400')">
+                            <a href="https://drive.google.com/drive/folders/1IwgvbetMDpLK2skRalYWmth2J1gvF-qm" target="popup" onclick="window.open('http://storage.googleapis.com/gresearch/refraw360/360_v2.zip','popup','width=600,height=400')">
                             <image src="img/database_icon.png" height="60px">
                                 <h4><strong>Dataset</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/google-research/multinerf">
+                            <a href="https://github.com/Lukeli0425/Galaxy-Deconv">
                             <image src="img/github.png" height="60px">
                                 <h4><strong>Code</strong></h4>
                             </a>
@@ -144,7 +144,14 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-Though neural radiance fields (NeRF) have demonstrated impressive view synthesis results on objects and small bounded regions of space, they struggle on "unbounded" scenes, where the camera may point in any direction and content may exist at any distance. In this setting, existing NeRF-like models often produce blurry or low-resolution renderings (due to the unbalanced detail and scale of nearby and distant objects), are slow to train, and may exhibit artifacts due to the inherent ambiguity of the task of reconstructing a large scene from a small set of images. We present an extension of mip-NeRF (a NeRF variant that addresses sampling and aliasing) that uses a non-linear scene parameterization, online distillation, and a novel distortion-based regularizer to overcome the challenges presented by unbounded scenes. Our model, which we dub "mip-NeRF 360" as we target scenes in which the camera rotates 360 degrees around a point, reduces mean-squared error by 54% compared to mip-NeRF, and is able to produce realistic synthesized views and detailed depth maps for highly intricate, unbounded real-world scenes.
+                    Removing optical and atmospheric blur from galaxy images significantly improves galaxy shape measurements for weak
+                    gravitational lensing and galaxy evolution studies. This ill-posed linear inverse problem is usually solved with deconvolution
+                    algorithms enhanced by regularisation priors or deep learning. We introduce a so-called "physics-based deep learning" approach
+                    to the Point Spread Function (PSF) deconvolution problem in galaxy surveys. We apply algorithm unrolling and the Plug-and-Play
+                    technique to the Alternating Direction Method of Multipliers (ADMM) with a Poisson noise model and use a neural network
+                    to learn appropriate priors from simulated galaxy images. We characterise the time-performance trade-off of several methods
+                    for galaxies of differing brightness levels, showing an improvement of 26% (SNR=20)/48% (SNR=100) compared to standard
+                    methods and 14% (SNR=20) compared to modern methods.
                 </p>
             </div>
         </div>
