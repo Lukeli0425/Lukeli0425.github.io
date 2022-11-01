@@ -135,7 +135,7 @@
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-center">
-                    <b>Overview of the image processing pipeline.</b>
+                    <b>Overview of the image processing pipeline.</b> <em>Image simulations</em>: we simulated galaxy images for the upcoming LSST ground-based sky survey by modifying galaxy images from the COSMOS Dataset with the modular galaxy image simulation toolkit Galsim. The raw images are scaled to a target flux value and randomly sheared and rotated before being spatially downsampled by a factor of 4 (16x in area) to a pixel scale of 0.2 arcsec. PSFs consisting of both atmospheric and optical components were generated with realistic seeing and shear distributions. The downsampled galaxy is convolved with the PSF and Poisson shot noise and Gaussian read noise are added to the image. <em>Model</em>: we unrolled Plug-and Play ADMM with a Poisson likelihood into an N-layer neural network, with separate networks trained for N = 1,2,4,8. Light grey boxes denote fixed computations while green boxes are neural networks (a small convolutional neural network for hyperparameter estimation and a ResUNet for denoising). Green outlines indicate the use of a few trained parameters in the fixed computations and horizontal green lines show that weights are shared across network layers.
                 </p>
             </div>
         </div>
