@@ -47,7 +47,7 @@
     <div class="container" id="main">
         <div class="row">
             <h2 class="col-md-12 text-center">
-                Galaxy Image Deconvolution for Weak Gravitational Lensing <br> with Physics-informed Deep Learning </br> 
+                Galaxy Image Deconvolution for Weak Gravitational Lensing <br> with Unrolled Plug-and-Play ADMM </br> 
                 <small>
 								Under Review
                 </small>
@@ -147,14 +147,7 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-                    Removing optical and atmospheric blur from galaxy images significantly improves galaxy shape measurements for weak
-                    gravitational lensing and galaxy evolution studies. This ill-posed linear inverse problem is usually solved with deconvolution
-                    algorithms enhanced by regularisation priors or deep learning. We introduce a so-called "physics-based deep learning" approach
-                    to the Point Spread Function (PSF) deconvolution problem in galaxy surveys. We apply algorithm unrolling and the Plug-and-Play
-                    technique to the Alternating Direction Method of Multipliers (ADMM) with a Poisson noise model and use a neural network
-                    to learn appropriate priors from simulated galaxy images. We characterise the time-performance trade-off of several methods
-                    for galaxies of differing brightness levels, showing an improvement of 26% (SNR=20)/48% (SNR=100) compared to standard
-                    methods and 14% (SNR=20) compared to modern methods.
+                    Removing optical and atmospheric blur from galaxy images significantly improves galaxy shape measurements for weak gravitational lensing and galaxy evolution studies. This ill-posed linear inverse problem is usually solved with deconvolution algorithms enhanced by regularisation priors or deep learning. We introduce a so-called "physics-based deep learning" approach to the Point Spread Function (PSF) deconvolution problem in galaxy surveys. We apply algorithm unrolling and the Plug-and- Play technique to the Alternating Direction Method of Multipliers (ADMM), in which a neural network learns appropriate hyperparameters and denoising priors from simulated galaxy images. We characterise the time-performance trade-off of several methods for galaxies of differing brightness levels as well as our method's robustness to systematic PSF errors and ablations. We show an improvement in reduced shear ellipticity error of 38.6% (SNR=20)/45.0% (SNR=200) compared to classic methods and 7.4% (SNR=20)/33.2% (SNR=200) compared to modern methods.
                 </p>
             </div>
         </div>
@@ -196,7 +189,7 @@
                 </h3>
                 <pre>
 @article{li2022galaxy,
-    title={Galaxy Image Deconvolution for Weak Gravitational Lensing with Physics-informed Deep Learning},
+    title={Galaxy Image Deconvolution for Weak Gravitational Lensing with Unrolled Plug-and-Play ADMM},
     author={Li, Tianao and Alexander, Emma},
     journal={arXiv preprint arXiv:2211.01567},
     year={2022}
