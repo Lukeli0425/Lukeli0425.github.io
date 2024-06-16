@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>PACT</title>
+    <title>NF-PACT</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,7 +47,10 @@
     <div class="container" id="main">
         <div class="row">
             <h2 class="col-md-12 text-center">
-                Efficient Speed of Sound Aberration Correction <br> in Photoacoustic Computed Tomography <br>
+                Neural Fields Enabled Joint Reconstruction of<br>
+                Sound Speed Distribution and Initial Pressure in<br>
+                Photoacoustic Computed Tomography
+                <br>
                 <small>
                     In Submission
                 </small>
@@ -100,18 +103,18 @@
                                 <h4><strong>arXiv</strong></h4>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="">
                             <image src="img/YouTube.png" height="60px">
                                 <h4><strong>Video</strong></h4>
                             </a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <a href="">
                             <image src="img/Google-Drive.png" height="60px">
                                 <h4><strong>Dataset</strong></h4>
-                            </a> -->
-                        </li>
+                            </a>
+                        </li> -->
                         <li>
                             <a href="https://github.com/Lukeli0425/PACT">
                             <image src="img/github.png" height="60px">
@@ -147,7 +150,9 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-                    To be done...
+                    Photoacoustic computed tomography (PACT) is a non-invasive imaging modality with wide medical applications. Conventional PACT image reconstruction algorithm suffers from wavefront distortion caused by the heterogeneous speed of sound (SoS) in tissue, which usually leads to image degradation. While additional information on the speed of sound distribution can mitigate these effects, measuring the SoS distribution is experimentally expensive and lacks accuracy. An alternative approach is to perform joint reconstruction (JR) of the initial pressure and SoS distribution using only the sinogram. However, existing joint reconstruction methods come with limitations: high computational cost, inability to directly recover sound speed distribution, and reliance on simplifications on the ultrasonic wavefront, potentially leading to inaccuracies.
+                    Implicit neural representation, or neural fields, is an emerging technique in computer vision to learn an efficient and continuous representation of physical fields with a coordinate-based neural network. In this work, we introduce an efficient joint reconstruction method that utilizes neural fields to represent the speed of sound distribution. Compared with existing methods, our method can directly reconstruct the aberration-free initial pressure and a continuous SoS distribution in a shorter time without simplifications on the forward model.
+                    To fully characterize the properties of the proposed method, we designed our numerical phantom with relatively large SoS variations. We demonstrate the success of our method on numerical simulation and experimentally collected phantom and in vivo data. Our code and numerical phantom are available at <a href="https://github.com/Lukeli0425/PACT">https://github.com/Lukeli0425/PACT</a>.
                 </p>
             </div>
         </div>
