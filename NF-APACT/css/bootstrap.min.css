@@ -45,9 +45,9 @@
   font-size: 19px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   width: 100%;
-  text-align: bottom;
+  text-align: center;
 }
 
 /* Number text (1/3 etc) */
