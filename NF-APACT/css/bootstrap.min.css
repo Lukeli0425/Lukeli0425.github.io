@@ -42,11 +42,11 @@
 /* Caption text */
 .text {
   color: #000000;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   padding: 8px 12px;
   position: absolute;
-  bottom: -9px;
+  bottom: -18px;
   width: 100%;
   text-align: center;
 }
