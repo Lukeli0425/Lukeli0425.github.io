@@ -74,13 +74,16 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2.5 publication-title">BayesiaNF: Bayesian Neural Fields for Efficient Uncertainty Quantification in Scientific Inverse Imaging </h1>
+          <h1 class="title is-2.5 publication-title">BayesiaNF: Bayesian Neural Fields for Principled Uncertainty Quantification in Scientific Inverse Imaging </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://lukeli0425.github.io">Tianao Li</a>,
             </span>
             <span class="author-block">
               <a href="https://eugenia0804.github.io">Eugenia Y. Cao</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://sungheonpark.github.io">Sungheon Park</a>,
             </span>
             <span class="author-block">
               <a href="https://www.alexander.vision/emma">Emma Alexander</a>
@@ -99,7 +102,7 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -107,7 +110,7 @@
                   </span>
                   <span>Paper</span>
                 </a>
-              </span>
+              </span> -->
               <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
@@ -118,7 +121,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -126,7 +129,7 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/Lukeli0425/BayesiaNF"
@@ -171,7 +174,7 @@
 </section> -->
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -226,18 +229,32 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
   <div class="container is-max-desktop">
+    <!-- Overview figure. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-10 has-text-centered">
+          <img src="images/pipeline.png" style="width:100%;max-width:100%">
+      </div>
+    </div>
+    <!-- Overview figure. -->
+
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Coming soon...
+            Uncertainty quantification (UQ) is vital for medical and scientific imaging and their downstream tasks. 
+            Neural fields (NFs), also known as implicit neural representations (INRs), have emerged as a powerful tool to solve ill-posed imaging inverse problems for their efficient representation, implicit regularization, and independence of training data.
+            However, NFs generally produce a single solution without quantifying the uncertainty in the solution.
+            We introduce <b>Bayesian Neural Fields (BayesiaNF)</b>, a novel framework enabling posterior sampling with neural fields for principled uncertainty quantification in scientific inverse imaging. 
+            BayesiaNF models the image posterior with conditional normalizing flows (CNFs) that are conditioned on the output of a neural fields, which embeds features corresponding to spatial locations to capture spatial structures and correlations.
+            This allows principled posterior sampling by passing randomly sampled latent variables through the CNF.
+            We demonstrate the effectiveness and efficiency of BayesiaNF on three tasks in scientific and medical imaging: astronomical image restoration, compressed sensing MRI, and photoacoustic computed tomography (PACT).
           </p>
         </div>
       </div>
@@ -301,12 +318,12 @@
     <!--/ Matting. -->
 
     <!-- Animation. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -336,11 +353,11 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
@@ -357,16 +374,16 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
         <!--/ Re-rendering. -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
     <!--/ Animation. -->
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -377,7 +394,7 @@
           
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
