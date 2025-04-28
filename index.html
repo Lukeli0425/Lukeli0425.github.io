@@ -157,10 +157,29 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:14px;width:30%;max-width:30%" align="center">
-                <img style="width:100%;max-width:100%" src="./images/grid.jpg" alt="dise">
+          <tr onmouseout="galaxy_deconv_stop()" onmouseover="galaxy_deconv_start()">
+            <td style="padding:15px;width:30%;max-width:30%;vertical-align:middle" align="center">
+                <div class="one">
+                  <div class="two" id='galaxy_deconv'>
+                    <video width="100%" muted autoplay loop>
+                      <source src="images/Unrolled_ADMM_8iters_SNR=100.mp4" type="video/mp4"/>
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <img width="100%" src="images/Unrolled_ADMM_8iters_SNR=100_8.png">
+                </div>
+                <script type="text/javascript">
+                  functiongalaxy_deconv_start() {
+                    document.getElementById('galaxy_deconv').style.opacity = "1";
+                  }
+    
+                  function galaxy_deconv_stop() {
+                    document.getElementById('galaxy_deconv').style.opacity = "0";
+                  }
+                  galaxy_deconv_stop()
+                </script>
             </td>
+
             <td width="75%" valign="center">
               <papertitle><a href="https://lukeli0425.github.io/Galaxy_Deconv/"><b>Galaxy Image Deconvolution for Weak Gravitational Lensing <br> with Unrolled Plug-and-Play ADMM</b></a></papertitle>
               <br>
