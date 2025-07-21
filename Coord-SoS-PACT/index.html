@@ -95,7 +95,7 @@
                     <li>
                         <a href="">
                             <!-- <img src="images/CVF.jpeg" height="60px"> -->
-                            <img src="images/ICCV2025.png" height="70px">
+                            <img src="images/ICCV2025.png" height="65px">
                             <h4><strong>Paper</strong></h4>
                         </a>
                     </li>
@@ -237,7 +237,7 @@
                     We begin with a stack of aberrated reconstructions, created with a varying delay parameter (green), roughly analogous to a focal stack. 
                     Each image patch is recovered with a multi-channel deconvolution.
                     Our forward model (dashed red) uses a trainable coordinate-based SOS representation to estimate the point spread functions (PSFs) at each location (white “x” for example shown). 
-                    The physics-based forward model and multichannel inversion are fully differentiable, enabling test-time training without any external training data, which is currently limited for this imaging modality. 
+                    The physics-based forward model and multi-channel inversion are fully differentiable, enabling test-time training without any external training data, which is currently limited for this imaging modality. 
                     (b) We benchmark our method using both a neural field (NF) and pixel grid (PG) for SOS representation. 
                     Compared to the best existing methods, both with and without SOS recovery, we provide state-of-the-art image quality, and recover SOS with an order-of-magnitude speed-up.
                 </p>
@@ -256,7 +256,7 @@
                 <p class="text-justify">
                     <b>Figure 4. Numerical simulation demonstrates accuracy and computational efficiency.</b>
                     (a) Our numerical phantom allows quantitative evaluation of image reconstruction under different SOS distributions in simulation. 
-                    The PA signals are generated with k-wave simulation [31] using the IP and SOS shown. 
+                    The PA signals are generated with k-Wave simulation [31] using the IP and SOS shown. 
                     (b) The wavefront (sampled location marked by white “x” in a) reconstructed by our method with NF (purple) and PG (green) is much closer to the true wavefront (red) than other methods, better capturing image aberrations. 
                     (c) We compare our method with conventional DAS, Dual-SOS DAS, our multi-channel deconvolution with the true SOS, and APACT. 
                     While conventional DAS assumes a uniform SOS and results in significant image aberrations, Dual-SOS DAS provides better contrast by assuming a single-body SOS but cannot fully undo the aberrations and reconstruct the SOS. 
