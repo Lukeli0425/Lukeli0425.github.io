@@ -113,7 +113,7 @@
                     </li> -->
                     <li>
                         <a href="">
-                        <img src="images/Google-Drive.png" height="60px">
+                            <img src="images/Google-Drive.png" height="60px">
                             <h4><strong>Dataset</strong></h4>
                         </a>
                     </li>
@@ -209,14 +209,22 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-                    Photoacoustic computed tomography (PACT) is a non-invasive imaging modality, similar to ultrasound, with wide-ranging medical applications. 
-                    Conventional PACT images are degraded by wavefront distortion caused by the heterogeneous speed of sound (SOS) in tissue. 
-                    Accounting for these effects can improve image quality and provide medically useful information, but measuring the SOS directly is burdensome and the existing joint reconstruction method is computationally expensive. 
+                    Photoacoustic computed tomography (PACT) is a non-invasive imaging modality, similar to ultrasound,
+                    with wide-ranging medical applications.
+                    Conventional PACT images are degraded by wavefront distortion caused by the heterogeneous speed of
+                    sound (SOS) in tissue.
+                    Accounting for these effects can improve image quality and provide medically useful information, but
+                    measuring the SOS directly is burdensome and the existing joint reconstruction method is
+                    computationally expensive.
                     Traditional supervised learning techniques are currently inaccessible in this data-starved domain.
-                    In this work, we introduce an efficient, self-supervised joint reconstruction method that recovers SOS and high-quality images for ring array PACT systems. 
-                    To solve this semi-blind inverse problem, we parametrize the SOS using either a pixel grid or a neural field (NF) and update it directly by backpropagating the gradients through a differentiable imaging forward model. 
-                    Our method removes SOS aberrations more accurately and 35x faster than the current SOTA. 
-                    We demonstrate the success of our method quantitatively in simulation and qualitatively on experimentally-collected and in vivo data. 
+                    In this work, we introduce an efficient, self-supervised joint reconstruction method that recovers
+                    SOS and high-quality images for ring array PACT systems.
+                    To solve this semi-blind inverse problem, we parametrize the SOS using either a pixel grid or a
+                    neural field (NF) and update it directly by backpropagating the gradients through a differentiable
+                    imaging forward model.
+                    Our method removes SOS aberrations more accurately and 35x faster than the current SOTA.
+                    We demonstrate the success of our method quantitatively in simulation and qualitatively on
+                    experimentally-collected and in vivo data.
                 </p>
             </div>
         </div>
@@ -232,14 +240,21 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-justify">
                     <b>Figure 1. Self-Supervised Speed of Sound Recovery Corrects PACT Aberrations.</b>
-                    (a) Backprojection converts photoacoustic measurements into images (purple), which suffer aberrations caused by unaccounted-for variation in the speed of sound (SOS) of tissue. 
-                    Our method produces high-quality images through a self-supervised recovery of SOS. 
-                    We begin with a stack of aberrated reconstructions, created with a varying delay parameter (green), roughly analogous to a focal stack. 
+                    (a) Backprojection converts photoacoustic measurements into images (purple), which suffer
+                    aberrations caused by unaccounted-for variation in the speed of sound (SOS) of tissue.
+                    Our method produces high-quality images through a self-supervised recovery of SOS.
+                    We begin with a stack of aberrated reconstructions, created with a varying delay parameter (green),
+                    roughly analogous to a focal stack.
                     Each image patch is recovered with a multi-channel deconvolution.
-                    Our forward model (dashed red) uses a trainable coordinate-based SOS representation to estimate the point spread functions (PSFs) at each location (white “x” for example shown). 
-                    The physics-based forward model and multi-channel inversion are fully differentiable, enabling test-time training without any external training data, which is currently limited for this imaging modality. 
-                    (b) We benchmark our method using both a neural field (NF) and pixel grid (PG) for SOS representation. 
-                    Compared to the best existing methods, both with and without SOS recovery, we provide state-of-the-art image quality, and recover SOS with an order-of-magnitude speed-up.
+                    Our forward model (dashed red) uses a trainable coordinate-based SOS representation to estimate the
+                    point spread functions (PSFs) at each location (white “x” for example shown).
+                    The physics-based forward model and multi-channel inversion are fully differentiable, enabling
+                    test-time training without any external training data, which is currently limited for this imaging
+                    modality.
+                    (b) We benchmark our method using both a neural field (NF) and pixel grid (PG) for SOS
+                    representation.
+                    Compared to the best existing methods, both with and without SOS recovery, we provide
+                    state-of-the-art image quality, and recover SOS with an order-of-magnitude speed-up.
                 </p>
             </div>
         </div>
@@ -255,16 +270,26 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-justify">
                     <b>Figure 4. Numerical simulation demonstrates accuracy and computational efficiency.</b>
-                    (a) Our numerical phantom allows quantitative evaluation of image reconstruction under different SOS distributions in simulation. 
-                    The PA signals are generated with k-Wave simulation [31] using the IP and SOS shown. 
-                    (b) The wavefront (sampled location marked by white “x” in a) reconstructed by our method with NF (purple) and PG (green) is much closer to the true wavefront (red) than other methods, better capturing image aberrations. 
-                    (c) We compare our method with conventional DAS, Dual-SOS DAS, our multi-channel deconvolution with the true SOS, and APACT. 
-                    While conventional DAS assumes a uniform SOS and results in significant image aberrations, Dual-SOS DAS provides better contrast by assuming a single-body SOS but cannot fully undo the aberrations and reconstruct the SOS. 
-                    Given an accurate SOS, our multi-channel deconvolution is able to efficiently reconstruct a high-quality IP image. 
-                    APACT is able to deblur the image effectively but does not address overall shrinkage (see vertical shift in green boxes) and cannot reconstruct an accurate SOS. 
-                    Our method with NF solves the shrinking problem by fully characterizing the wavefront and is able to fully reconstruct the IP and SOS (see metrics) in a much shorter time than APACT. 
-                    Ours with PG also produces good IP images but generates stripe-like artifacts in the SOS that originate from the path-integral nature of the wavefront computation. 
-                    Providing our method with the ground truth SOS leads to only marginal improvements in image quality. 
+                    (a) Our numerical phantom allows quantitative evaluation of image reconstruction under different SOS
+                    distributions in simulation.
+                    The PA signals are generated with k-Wave simulation [31] using the IP and SOS shown.
+                    (b) The wavefront (sampled location marked by white “x” in a) reconstructed by our method with NF
+                    (purple) and PG (green) is much closer to the true wavefront (red) than other methods, better
+                    capturing image aberrations.
+                    (c) We compare our method with conventional DAS, Dual-SOS DAS, our multi-channel deconvolution with
+                    the true SOS, and APACT.
+                    While conventional DAS assumes a uniform SOS and results in significant image aberrations, Dual-SOS
+                    DAS provides better contrast by assuming a single-body SOS but cannot fully undo the aberrations and
+                    reconstruct the SOS.
+                    Given an accurate SOS, our multi-channel deconvolution is able to efficiently reconstruct a
+                    high-quality IP image.
+                    APACT is able to deblur the image effectively but does not address overall shrinkage (see vertical
+                    shift in green boxes) and cannot reconstruct an accurate SOS.
+                    Our method with NF solves the shrinking problem by fully characterizing the wavefront and is able to
+                    fully reconstruct the IP and SOS (see metrics) in a much shorter time than APACT.
+                    Ours with PG also produces good IP images but generates stripe-like artifacts in the SOS that
+                    originate from the path-integral nature of the wavefront computation.
+                    Providing our method with the ground truth SOS leads to only marginal improvements in image quality.
                     See visualizations of the convergence in the supplementary videos.
                 </p>
             </div>
@@ -284,14 +309,21 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-justify">
                     <b>Figure 5. Real-world results.</b>
-                    We compare our methods to conventional DAS, Dual SOS DAS, and APACT on experimentally collected data, for which the true IP and SOS are unknown. 
-                    Panel (a) shows a 3-SOS leaf-and-gel phantom [5] (see labeled photograph). 
-                    Prior methods fail to capture the vein structure accurately, while our method succeeds in both simple regions (blue) as well as more challenging regions (red) featuring dim illumination and a material boundary. 
-                    Our SOS map approximately recovers the material change in the phantom (white dotted line). 
-                    Panel (b) shows the reconstructed images from in vivo mouse liver data from [3]. 
-                    Despite requiring less computational time, our method precisely locates features like bright blood vessels and body edges (green) and effectively recovers fine structures with high contrast (blue and red). 
-                    Notably, the SOS map reconstructed by our method with NF exhibits a superior match to the liver's anatomical shape compared to APACT (see Fig. S2 in supplement for overlaid SOS and IP). 
-                    In both experiments, our method with PG produces artifacts in the SOS despite constrained by a strong TV regularization. 
+                    We compare our methods to conventional DAS, Dual SOS DAS, and APACT on experimentally collected
+                    data, for which the true IP and SOS are unknown.
+                    Panel (a) shows a 3-SOS leaf-and-gel phantom [5] (see labeled photograph).
+                    Prior methods fail to capture the vein structure accurately, while our method succeeds in both
+                    simple regions (blue) as well as more challenging regions (red) featuring dim illumination and a
+                    material boundary.
+                    Our SOS map approximately recovers the material change in the phantom (white dotted line).
+                    Panel (b) shows the reconstructed images from in vivo mouse liver data from [3].
+                    Despite requiring less computational time, our method precisely locates features like bright blood
+                    vessels and body edges (green) and effectively recovers fine structures with high contrast (blue and
+                    red).
+                    Notably, the SOS map reconstructed by our method with NF exhibits a superior match to the liver's
+                    anatomical shape compared to APACT (see Fig. S2 in supplement for overlaid SOS and IP).
+                    In both experiments, our method with PG produces artifacts in the SOS despite constrained by a
+                    strong TV regularization.
                     See supplementary videos for visualizations of convergence.
                 </p>
             </div>
@@ -308,7 +340,8 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-justify">
                     <b>Figure S2. Overlaid initial pressure image and SOS of in vivo mouse liver.</b>
-                    Our reconstructed SOS with NF (right) shows a superior match to the liver's anatomical shape in the initial pressure image.
+                    Our reconstructed SOS with NF (right) shows a superior match to the liver's anatomical shape in the
+                    initial pressure image.
                 </p>
             </div>
         </div>
@@ -361,8 +394,13 @@
                     Acknowledgements
                 </h3>
                 <p class="text-justify">
-                    We gratefully acknowledge the support of the <a href="https://skai-institute.org">NSF-Simons AI-Institute for the Sky (SkAI)</a> via grants NSF AST-2421845 and Simons Foundation MPS-AI-00010513.
-                    We would also like to thank Liujie Gu and Yan Luo for helping us with the numerical simulations.
+                    We gratefully acknowledge the support of the <a href="https://skai-institute.org">NSF-Simons
+                        AI-Institute for the Sky (SkAI)</a> via grants NSF AST-2421845 and Simons Foundation
+                    MPS-AI-00010513.
+                    We would also like to thank Liujie Gu and Yan Luo for helping us with the numerical simulations and
+                    <a href="https://yichunhung.github.io">Yi-Chun Hung</a> and <a
+                        href="https://marc103.github.io/">Marcos Ferreira</a> for
+                    suggestions on the manuscript.
                 </p>
                 <p style="text-align:right;">
                     Website template from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
@@ -378,7 +416,7 @@
                     src="//clustrmaps.com/globe.js?d=LX-XU5v2AyHvdAz7Ic3cWsBeguE789rOYyRa8FFlsXk"></script>
             </div>
             <br>
-            &copy; Tianao Li | Last update: Jul. 20, 2025
+            &copy; Tianao Li | Last update: Jul. 22, 2025
         </center>
     </p>
 
