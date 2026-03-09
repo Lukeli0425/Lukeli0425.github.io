@@ -34,6 +34,9 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">SpiderCam: Low-Power Snapshot Depth from Differential Defocus</h1>
+          <h2 class="subtitle is-4" style="margin-top: 1em; font-weight: bold; color: #6c6c6c;">
+            <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
+          </h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://marc103.github.io">Marcos A. Ferreira</a>*<sup>,1</sup>,</span>
@@ -127,12 +130,18 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="https://youtu.be/eOzm_onlyY0?si=Rj7vuBxe0eP1FbkA"
-                type="video/mp4">
-      </video>
+      <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+        <iframe 
+          id="teaser"
+          src="https://www.youtube.com/embed/eOzm_onlyY0?autoplay=1&mute=1&loop=1&playlist=eOzm_onlyY0"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          style="position:absolute; top:0; left:0; width:100%; height:100%;">
+        </iframe>
+      </div>
       <h2 class="subtitle has-text-centered">
-          <span class="dnerf">SpiderCam</span> outputs 480x400 depth maps in real-time at 32.5 FPS while consuming 611 mW of power.
+        <span class="dnerf">SpiderCam</span> outputs 480x400 depth maps in real-time at 32.5 FPS while consuming 611 mW of power.
       </h2>
     </div>
   </div>
