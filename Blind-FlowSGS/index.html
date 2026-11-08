@@ -1,22 +1,220 @@
-<!DOCTYPE html><html class="bg-white dark:bg-zinc-900" lang="en" data-theme="device"> <head><meta charset="UTF-8"><meta name="description" content="Blind-FlowSGS is a principled blind posterior sampler that uses flow matching priors to jointly reconstruct the source galaxy and the lens mass of strong gravitational lenses."><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v6.3.5"><link rel="icon" type="image/svg+xml" href="/Blind-FlowSGS/favicon.svg"><meta property="og:title" content="Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors"><meta property="og:description" content="Blind-FlowSGS is a principled blind posterior sampler that uses flow matching priors to jointly reconstruct the source galaxy and the lens mass of strong gravitational lenses."><meta property="og:type" content="website"><meta property="og:image" content="https://nubivlab.github.io/Blind-FlowSGS/thumbnail.png"><meta property="og:url" content="https://nubivlab.github.io/Blind-FlowSGS/"><meta name="twitter:card" content="summary_large_image"><style>@font-face{font-family:"Noto Sans-e26573b19e8d949d";src:url("/Blind-FlowSGS/astro-assets/fonts/1d7aab50fda97bb3.woff2") format("woff2");font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-weight:100 900;font-style:italic;}@font-face{font-family:"Noto Sans-e26573b19e8d949d";src:url("/Blind-FlowSGS/astro-assets/fonts/1e5097bbf9c9d577.woff2") format("woff2");font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-weight:100 900;font-style:normal;}@font-face{font-family:"Noto Sans-e26573b19e8d949d fallback: Arial";src:local("Arial");font-display:swap;font-weight:100 900;font-style:italic;size-adjust:100.269%;ascent-override:106.6132%;descent-override:29.2214%;line-gap-override:0%;}@font-face{font-family:"Noto Sans-e26573b19e8d949d fallback: Arial";src:local("Arial");font-display:swap;font-weight:100 900;font-style:normal;size-adjust:100.269%;ascent-override:106.6132%;descent-override:29.2214%;line-gap-override:0%;}:root{--font-noto-sans:"Noto Sans-e26573b19e8d949d","Noto Sans-e26573b19e8d949d fallback: Arial",sans-serif;}</style><link rel="preload" href="/Blind-FlowSGS/astro-assets/fonts/1e5097bbf9c9d577.woff2" as="font" type="font/woff2" crossorigin><title>Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors</title><link rel="stylesheet" href="/Blind-FlowSGS/astro-assets/index.Ch3O16TW.css"></head> <body class="prose prose-lg prose-zinc dark:prose-invert prose-a:text-blue-600 prose-a:hover:text-blue-900 prose-a:dark:text-blue-200 prose-a:dark:hover:text-blue-100 prose-a:underline prose-a:decoration-dashed prose-a:underline-offset-4 prose-a:hover:decoration-solid prose-a:font-normal prose-code:bg-zinc-200 prose-code:dark:bg-zinc-800 prose-code:text-zinc-800 prose-code:dark:text-zinc-200 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:font-medium prose-code:before:content-none prose-code:after:content-none max-w-none pt-16 pb-6 font-(family-name:--font-noto-sans)"> <main> <header class="full-bleed relative mb-12" data-astro-cid-3ef6ksr2>  <div class="relative z-10 mx-auto flex max-w-[50rem] flex-col items-center px-6 text-center gap-6" data-astro-cid-3ef6ksr2> <h1 class="my-0 text-5xl font-medium" data-astro-cid-3ef6ksr2>Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors</h1> <div class="flex flex-row flex-wrap justify-center gap-x-8 gap-y-4" data-astro-cid-3ef6ksr2> <div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://lukeli0425.github.io/" data-astro-cid-3ef6ksr2>Tianao Li</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://scholar.google.com/citations?user=01eCmXQAAAAJ&amp;hl=en" data-astro-cid-3ef6ksr2>Jimena González</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://palfeng.github.io/" data-astro-cid-3ef6ksr2>Xinfeng Xu</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,3,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://sites.northwestern.edu/ivpl/" data-astro-cid-3ef6ksr2>Aggelos K. Katsaggelos</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,4 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://willett.psd.uchicago.edu/" data-astro-cid-3ef6ksr2>Rebecca Willett</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 2,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://aleksandraciprijanovic.wordpress.com/" data-astro-cid-3ef6ksr2>Aleksandra Ćiprijanović</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 2,4,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://tstarkenburg.github.io/" data-astro-cid-3ef6ksr2>Tjitske Starkenburg</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,5 </sup> </div>  </div><div class="flex flex-col items-center text-center" data-astro-cid-3ef6ksr2> <div class="flex flex-row text-xl" data-astro-cid-3ef6ksr2> <a href="https://www.alexander.vision/" data-astro-cid-3ef6ksr2>Emma Alexander</a> <sup class="text-xl" data-astro-cid-3ef6ksr2> 1,5 </sup> </div>  </div> </div> <div data-astro-cid-3ef6ksr2>The 9th Workshop on Machine Learning and the Physical Sciences (ML4PS), 2026</div> <div class="text-center text-sm" data-astro-cid-3ef6ksr2> <span data-astro-cid-3ef6ksr2> <sup data-astro-cid-3ef6ksr2>1</sup>Northwestern University, </span><span data-astro-cid-3ef6ksr2> <sup data-astro-cid-3ef6ksr2>2</sup>University of Chicago, </span><span data-astro-cid-3ef6ksr2> <sup data-astro-cid-3ef6ksr2>3</sup>Zhejiang University, </span><span data-astro-cid-3ef6ksr2> <sup data-astro-cid-3ef6ksr2>4</sup>Fermi National Accelerator Laboratory, </span><span data-astro-cid-3ef6ksr2> <sup data-astro-cid-3ef6ksr2>5</sup>NSF-Simons AI Institute for the Sky (SkAI) </span> </div>  </div> </header>
-<div class="full-bleed bg-zinc-200 py-8 dark:bg-zinc-800"> <div class="mx-[var(--actual-inline-margin)] [&>:first-child]:mt-0 [&>:last-child]:mb-0"> <h2 id="abstract">Abstract</h2><p>Strong gravitational lensing reveals important information about the universe, but reconstructing the source image and lens properties requires solving an ill-posed inverse imaging problem.
-Generative image models serve as powerful data-driven priors in Bayesian inverse problems.
-Diffusion models have been used widely, but they are computationally costly.
-Flow matching has emerged as a promising alternative to diffusion models, with the advantage of straighter probability paths that enable easier training, efficient sampling, and better-quality data generation.
-In this work, we present <strong>Blind-FlowSGS</strong>, a principled blind posterior sampling method using flow matching priors, enabling efficient posterior sampling for non-blind and blind inversion of strong gravitational lenses.
-On simulated Euclid data, we demonstrate our method’s improvement over diffusion-based methods in both efficacy and efficiency.
-Our method shows promising capabilities to accurately process strong lensing data from modern sky surveys at scale.</p> </div> </div>
-<h2 id="method">Method</h2>
-<figure> <div class="flex w-full justify-center **:my-0"> <picture> <source srcset="/Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_anuGP.avif 640w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z29MqCw.avif 750w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_1VJBlC.avif 828w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_2lNWF6.avif 1080w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_ZmP1HX.avif 1280w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z3ySuy.avif 1668w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_119HPh.avif 2048w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_EujS5.avif 2560w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_ZNGRMh.avif 2833w" type="image/avif">  <img src="/Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_25Pj8b.png" srcset="/Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_1p9B0P.png 640w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_ZU1kjw.png 750w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z1SFq9j.png 828w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_ba0LC.png 1080w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_2wHacu.png 1280w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z2edPo2.png 1668w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z19ue3c.png 2048w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_Z1v9C0o.png 2560w, /Blind-FlowSGS/astro-assets/blind_flowsgs_method.CtzBd22F_25Pj8b.png 2833w" alt="Overview of the Blind-FlowSGS sampler, showing the four alternating steps and the sampling trajectory of the source galaxy" loading="lazy" decoding="async" sizes="(min-width: 2833px) 2833px, 100vw" data-astro-image="constrained" data-astro-image-fit="contain" data-astro-image-pos="center" width="2833" height="975" class="rounded-lg max-h-[calc(100svh-3rem)] max-w-full w-min mx-auto "> </picture> </div> <figcaption class="text-center"> <span><p><strong>A high-level overview of Blind-FlowSGS, a principled blind posterior sampler using flow matching as a plug-and-play prior.</strong>
-Our method iterates between a source image likelihood step, a source image prior step, a lens mass likelihood step, and a lens mass prior step.
-We show sampling trajectories of the source galaxy on the right.</p></span> </figcaption> </figure>
-<h2 id="bibtex-citation">BibTeX citation</h2>
-<div class="expressive-code"><link rel="stylesheet" href="/Blind-FlowSGS/astro-assets/ec.0wf8d.css"/><script type="module" src="/Blind-FlowSGS/astro-assets/ec.0vx5m.js"></script><figure class="frame"><figcaption class="header"></figcaption><pre data-language="bibtex"><code><div class="ec-line"><div class="code"><span style="--0:#F97583;--1:#BF3441">@inproceedings</span><span style="--0:#E1E4E8;--1:#24292E">{</span><span style="--0:#B392F0;--1:#6F42C1">li2026blindflowsgs</span><span style="--0:#E1E4E8;--1:#24292E">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#79B8FF;--1:#005CC5">author</span><span style="--0:#E1E4E8;--1:#24292E">    = </span><span style="--0:#9ECBFF;--1:#032F62">{</span><span style="--0:#E1E4E8;--1:#24292E">Li, Tianao and Gonz\&#39;alez, Jimena and Xu, Xinfeng and Katsaggelos, Aggelos K. and Willett, Rebecca and \&#39;Ciprijanovi\&#39;c, Aleksandra and Starkenburg, Tjitske and Alexander, Emma</span><span style="--0:#9ECBFF;--1:#032F62">}</span><span style="--0:#E1E4E8;--1:#24292E">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#79B8FF;--1:#005CC5">title</span><span style="--0:#E1E4E8;--1:#24292E">     = </span><span style="--0:#9ECBFF;--1:#032F62">{</span><span style="--0:#E1E4E8;--1:#24292E">Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors</span><span style="--0:#9ECBFF;--1:#032F62">}</span><span style="--0:#E1E4E8;--1:#24292E">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#79B8FF;--1:#005CC5">booktitle</span><span style="--0:#E1E4E8;--1:#24292E"> = </span><span style="--0:#9ECBFF;--1:#032F62">{</span><span style="--0:#E1E4E8;--1:#24292E">The 9th Workshop on Machine Learning and the Physical Sciences (ML4PS)</span><span style="--0:#9ECBFF;--1:#032F62">}</span><span style="--0:#E1E4E8;--1:#24292E">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#79B8FF;--1:#005CC5">year</span><span style="--0:#E1E4E8;--1:#24292E">      = </span><span style="--0:#9ECBFF;--1:#032F62">{</span><span style="--0:#E1E4E8;--1:#24292E">2026</span><span style="--0:#9ECBFF;--1:#032F62">}</span><span style="--0:#E1E4E8;--1:#24292E">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#E1E4E8;--1:#24292E">}</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="@inproceedings{li2026blindflowsgs,  author    = {Li, Tianao and Gonz\'alez, Jimena and Xu, Xinfeng and Katsaggelos, Aggelos K. and Willett, Rebecca and \'Ciprijanovi\'c, Aleksandra and Starkenburg, Tjitske and Alexander, Emma},  title     = {Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors},  booktitle = {The 9th Workshop on Machine Learning and the Physical Sciences (ML4PS)},  year      = {2026},}"><div></div></button></div></figure></div>
-<h2 id="acknowledgements">Acknowledgements</h2>
-<p>We gratefully acknowledge the support of the <a href="https://skai-institute.org">NSF-Simons AI Institute for the Sky (SkAI)</a> via grants NSF AST-2421845 and <a href="https://www.simonsfoundation.org">Simons Foundation</a> MPS-AI-00010513.
-This material is based upon work supported by the U.S. National Science Foundation under Award No. 2542022.
-This research used the Delta advanced computing and data resource, which is supported by the National Science Foundation (award OAC 2005572) and the State of Illinois.
-Delta is a joint effort of the University of Illinois Urbana-Champaign and its National Center for Supercomputing Applications.
-This work was produced by Fermi Forward Discovery Group, LLC under Contract No. 89243024CSC000002 with the U.S. Department of Energy, Office of Science, Office of High Energy Physics, which manages <a href="https://www.fnal.gov">Fermi National Accelerator Laboratory</a>.
-The authors would like to thank <a href="https://sunyumark.github.io/">Yu Sun</a> for helpful discussions.</p> </main> <footer class="mx-auto max-w-[50rem] px-6 text-center"> <p class="prose-sm text-center">
-Built with <a href="https://research-template.roman.technology" rel="nofollow">Roman Hauksson-Neill's project page template</a> </p> </footer> </body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="//common.northwestern.edu/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="font-size: 2.75rem;">Probabilistic Inversion of Strong
+              Gravitational Lenses with Flow
+              Matching Priors</h1>
+            <h2 class="subtitle is-4" style="margin-top: 1em; font-weight: bold; color: #6c6c6c;">
+              <em>The 9th Workshop on Machine Learning and the Physical Sciences (ML4PS), 2026</em>
+            </h2>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://lukeli0425.github.io/">Tianao Li</a><sup>1,5</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=01eCmXQAAAAJ&hl=en">Jimena
+                  González</a><sup>1,5</sup>,</span>
+              <span class="author-block">
+                <a href="https://palfeng.github.io/">Xinfeng Xu</a><sup>1,3,5</sup>,</span>
+              <span class="author-block">
+                <a href="https://sites.northwestern.edu/ivpl/">Aggelos K. Katsaggelos</a><sup>1,4</sup>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a><sup>2,5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://aleksandraciprijanovic.wordpress.com/">Aleksandra
+                  Ćiprijanović</a><sup>2,4,5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://tstarkenburg.github.io/">Tjitske Starkenburg</a><sup>1,5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.alexander.vision/">Emma Alexander</a><sup>1,5</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Northwestern University,</span>
+              <span class="author-block"><sup>2</sup>University of Chicago,</span>
+              <span class="author-block"><sup>3</sup>Zhejiang University,</span>
+              <br>
+              <span class="author-block"><sup>4</sup>Fermi National Accelerator Laboratory,</span>
+              <span class="author-block"><sup>5</sup>NSF-Simons AI Institute for the Sky (SkAI)</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Fill in the links below once the camera-ready, arXiv posting, and code release are available. -->
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+                <!-- arXiv Link. -->
+                <!-- <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+                <!-- Code Link. -->
+                <!-- <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <figure class="teaser-figure" style="margin: 0 auto; text-align: left;">
+          <img src="images/blind_flowsgs_method.png" alt="Overview of the Blind-FlowSGS sampler"
+            style="max-width:100%; height:auto; border-radius: 8px;">
+          <figcaption style="font-size: 1rem; color: #555; margin-top: 0.5em;">
+            <b>A high-level overview of <span class="dnerf">Blind-FlowSGS</span>, a principled blind posterior sampler
+              using flow matching as a plug-and-play prior.</b>
+            Our method iterates between a source image likelihood step, a source image prior step, a lens mass
+            likelihood step, and a lens mass prior step.
+            We show sampling trajectories of the source galaxy on the right.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Strong gravitational lensing reveals important information about the universe, but reconstructing the
+              source image and lens properties requires solving an ill-posed inverse imaging problem.
+              Generative image models serve as powerful data-driven priors in Bayesian inverse problems.
+              Diffusion models have been used widely, but they are computationally costly.
+              Flow matching has emerged as a promising alternative to diffusion models, with the advantage of
+              straighter probability paths that enable easier training, efficient sampling, and better-quality data
+              generation.
+              In this work, we present <b>Blind-FlowSGS</b>, a principled blind posterior sampling method using flow
+              matching priors, enabling efficient posterior sampling for non-blind and blind inversion of strong
+              gravitational lenses.
+              On simulated Euclid data, we demonstrate our method's improvement over diffusion-based methods in both
+              efficacy and efficiency.
+              Our method shows promising capabilities to accurately process strong lensing data from modern sky surveys
+              at scale.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Citation</h2>
+      <pre><code>@article{li2026probabilistic,
+    author    = {Li, Tianao and Gonz\'alez, Jimena and Xu, Xinfeng and Katsaggelos, Aggelos K. and Willett, Rebecca and \'Ciprijanovi\'c, Aleksandra and Starkenburg, Tjitske and Alexander, Emma},
+    title     = {Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors},
+    booktitle = {The 9th Workshop on Machine Learning and the Physical Sciences (ML4PS)},
+    year      = {2026}
+}</code></pre>
+    </div>
+  </section>
+
+
+  <section class="section" id="Acknowledgements">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgements</h2>
+      <p class="has-text-justified">
+        We gratefully acknowledge the support of the <a href="https://skai-institute.org">NSF-Simons AI Institute
+        for the Sky (SkAI)</a> via grants NSF AST-2421845 and <a
+          href="https://www.simonsfoundation.org">Simons Foundation</a> MPS-AI-00010513.
+        This material is based upon work supported by the U.S. National Science Foundation under Award No. 2542022.
+        This research used the Delta advanced computing and data resource, which is supported by the National Science
+        Foundation (award OAC 2005572) and the State of Illinois.
+        Delta is a joint effort of the University of Illinois Urbana-Champaign and its National Center for
+        Supercomputing Applications.
+        This work was produced by Fermi Forward Discovery Group, LLC under Contract No. 89243024CSC000002 with the U.S.
+        Department of Energy, Office of Science, Office of High Energy Physics, which manages <a
+          href="https://www.fnal.gov">Fermi National Accelerator Laboratory</a>.
+        The authors would like to thank <a href="https://sunyumark.github.io/">Yu Sun</a> for helpful discussions.
+      </p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://lukeli0425.github.io/">
+          <i class="fas fa-home"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Website template from <a href="https://nerfies.github.io/">Nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
